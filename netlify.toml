@@ -1,0 +1,18 @@
+# Configuración de despliegue — Netlify
+# El sitio es 100% estático: no hay build, solo publicar la carpeta.
+[build]
+  publish = "sitio-informativo"
+
+# Si algún día cambiás la estructura de URLs, las reglas van acá.
+# (Hoy todas las URLs ya existen tal cual: /articulos/*.html, etc.)
+
+[[headers]]
+  for = "/ads.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
