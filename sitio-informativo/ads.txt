@@ -1,3 +1,11 @@
-# Reemplazá esta línea por la que te da Google AdSense (Publisher ID):
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-# Otras redes (Media.net, Ezoic, etc.) te darán líneas extra para pegar acá.
+# ads.txt — Claramente (misitio.com.ar)
+# ------------------------------------------------------------
+# Cuando Google AdSense te apruebe, reemplazá PUB_ID por tu
+# Publisher ID sin el prefijo "ca-" (ej: ca-pub-1234567890123456
+# se convierte en pub-1234567890123456) y quitá el "#" delante:
+#
+# google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+#
+# Otras redes (Media.net, Ezoic, etc.) te darán líneas extra para
+# pegar acá. Este archivo debe quedar en la raíz del dominio:
+# https://www.misitio.com.ar/ads.txt
