@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.misitio.com.ar/</loc></url>
-  <url><loc>https://www.misitio.com.ar/acerca.html</loc></url>
-  <url><loc>https://www.misitio.com.ar/contacto.html</loc></url>
-  <url><loc>https://www.misitio.com.ar/privacidad.html</loc></url>
-  <url><loc>https://www.misitio.com.ar/cookies.html</loc></url>
-  <url><loc>https://www.misitio.com.ar/articulos/finanzas-personales.html</loc></url>
-  <url><loc>https://www.misitio.com.ar/articulos/proteger-cuentas.html</loc></url>
-  <url><loc>https://www.misitio.com.ar/articulos/ahorrar-luz.html</loc></url>
-  <url><loc>https://www.misitio.com.ar/articulos/phishing.html</loc></url>
-  <url><loc>https://www.misitio.com.ar/articulos/dormir-mejor.html</loc></url>
-  <url><loc>https://www.misitio.com.ar/articulos/cv-destacado.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/</loc></url>
+  <url><loc>https://misitiocom.netlify.app/acerca.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/contacto.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/privacidad.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/cookies.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/articulos/finanzas-personales.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/articulos/proteger-cuentas.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/articulos/ahorrar-luz.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/articulos/phishing.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/articulos/dormir-mejor.html</loc></url>
+  <url><loc>https://misitiocom.netlify.app/articulos/cv-destacado.html</loc></url>
 </urlset>

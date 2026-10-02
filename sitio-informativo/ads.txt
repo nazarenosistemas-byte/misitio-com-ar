@@ -1,4 +1,4 @@
-# ads.txt — Claramente (misitio.com.ar)
+# ads.txt — Claramente (https://misitiocom.netlify.app)
 # ------------------------------------------------------------
 # Cuando Google AdSense te apruebe, reemplazá PUB_ID por tu
 # Publisher ID sin el prefijo "ca-" (ej: ca-pub-1234567890123456
@@ -8,4 +8,4 @@
 #
 # Otras redes (Media.net, Ezoic, etc.) te darán líneas extra para
 # pegar acá. Este archivo debe quedar en la raíz del dominio:
-# https://www.misitio.com.ar/ads.txt
+# https://misitiocom.netlify.app/ads.txt

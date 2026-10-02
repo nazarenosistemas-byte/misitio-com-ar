@@ -1,5 +1,5 @@
 /* ============================================================
-   CONFIGURACIÓN DE GOOGLE ADSENSE — Claramente (misitio.com.ar)
+   CONFIGURACIÓN DE GOOGLE ADSENSE — Claramente (misitiocom.netlify.app)
    ------------------------------------------------------------
    PASO 1: Creá tu cuenta en https://ads.google.com
    PASO 2: Cuando Google te apruebe, te da un Publisher ID con
