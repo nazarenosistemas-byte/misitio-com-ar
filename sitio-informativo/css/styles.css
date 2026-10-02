@@ -172,7 +172,7 @@ nav a:hover, nav a[aria-current="page"] { color: var(--teal); }
 .t5 { background: linear-gradient(135deg, #6d597a, #b56576); }
 .t6 { background: linear-gradient(135deg, #2a9d8f, #264653); }
 .card .body { padding: 16px 18px 20px; }
-.card h2 { font-size: 1.15rem; margin: 0 0 8px; font-family: var(--serif); }
+.card h3 { font-size: 1.15rem; margin: 0 0 8px; font-family: var(--serif); }
 .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
 .meta { font-size: 0.8rem; color: var(--muted); margin-bottom: 8px; }
 
