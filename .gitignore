@@ -1,0 +1,11 @@
+# Sistema (Windows / macOS)
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Registros temporales
+*.log
+
+# Dependencias y builds (si algún día se agregan)
+node_modules/
+dist/

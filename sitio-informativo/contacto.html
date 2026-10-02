@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto — Claramente</title>
+  <meta name="description" content="Contacto para lectores, correcciones y consultas comerciales de publicidad.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Clara<span>mente</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" style="padding: 40px 0 64px;">
+    <p class="kicker">Escribinos</p>
+    <h1 class="page-title">Contacto</h1>
+    <p class="lead">Para correcciones, temas que te gustaría leer o publicidad.</p>
+    <p>Email: <a href="mailto:hola@misitio.com.ar">hola@misitio.com.ar</a></p>
+    <form class="form" id="contacto-form">
+      <label>Nombre <input name="nombre" required></label>
+      <label>Email <input type="email" name="email" required></label>
+      <label>Mensaje <textarea name="mensaje" rows="5" required></textarea></label>
+      <button class="btn" type="submit">Enviar</button>
+      <p id="form-ok" hidden>Gracias. En un hosting real conectá este formulario a Formspree, Netlify Forms o tu correo.</p>
+    </form>
+  </main>
+  <footer class="site-footer">
+    <p class="wrap legal"><a href="privacidad.html">Privacidad</a> · <a href="index.html">Inicio</a></p>
+  </footer>
+  <div class="cookie" id="cookie-banner">
+    Cookies para medición y anuncios si aceptás.
+    <div>
+      <button class="btn" id="cookie-accept" type="button">Aceptar</button>
+      <button class="btn" id="cookie-reject" type="button">Solo esenciales</button>
+    </div>
+  </div>
+  <script src="js/ads-config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

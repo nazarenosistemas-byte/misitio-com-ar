@@ -1,0 +1,3 @@
+# Reemplazá esta línea por la que te da Google AdSense (Publisher ID):
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Otras redes (Media.net, Ezoic, etc.) te darán líneas extra para pegar acá.
