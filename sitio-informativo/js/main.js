@@ -59,9 +59,31 @@
   if (form) {
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      const note = document.getElementById("form-ok");
-      if (note) note.hidden = false;
-      form.reset();
+      const ok = document.getElementById("form-ok");
+      const err = document.getElementById("form-error");
+      if (err) err.hidden = true;
+      if (ok) ok.hidden = true;
+      const btn = form.querySelector("button[type=submit]");
+      if (btn) { btn.disabled = true; btn.textContent = "Enviando…"; }
+      fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" }
+      })
+        .then(function (res) {
+          if (res.ok) {
+            form.reset();
+            if (ok) ok.hidden = false;
+          } else {
+            if (err) err.hidden = false;
+          }
+        })
+        .catch(function () {
+          if (err) err.hidden = false;
+        })
+        .finally(function () {
+          if (btn) { btn.disabled = false; btn.textContent = "Enviar"; }
+        });
     });
   }
 
